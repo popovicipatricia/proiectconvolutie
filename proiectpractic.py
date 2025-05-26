@@ -55,6 +55,7 @@ plt.subplot(3, 1, 2)
 plt.plot(t2, y2, color="green")
 plt.title("Semnal 2")
 plt.grid(True)
+
 plt.subplot(3, 1, 3)
 plt.plot(t_conv, convolutie, color="red")
 plt.title("Convoluția")
